@@ -1,0 +1,10 @@
+Explanation:
+
+The code creates a class named "PlayerData" that is attached to a game object in the scene.
+The "InputField" and "Text" objects are assigned to public variables that are linked to the input field and text objects in the GUI.
+A list of strings is created to store the player names.
+The file path for the XML file is set to the application's data path appended with the file name "playerData.xml".
+The "Start" method initializes the file path and loads the player data from the XML file.
+The "AddPlayerData" method is called when the "Add Player" button is clicked. It checks if the input field is not empty, adds the player name to the list, saves the data to the XML file, and updates the player list in the GUI.
+The "UpdatePlayerList" method updates the player list text in the GUI by clearing the current text and appending each player name to the text object.
+The "SavePlayerData" method checks if the XML file already exists. If it does, it loads
